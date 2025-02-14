@@ -1,0 +1,57 @@
+\documentclass[a4paper]{article}
+\usepackage[left=1.7cm, right=1.7cm, top=2.54cm, bottom=2.54cm]{geometry}
+\usepackage{fontspec}
+\usepackage{multicol}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+% Set font
+\setmainfont{Microsoft Sans Serif}
+
+% Set section and subsection formatting (9pt font size, no indentation, and spacing before titles)
+\titleformat{\section}{\fontsize{9pt}{11pt}\selectfont\bfseries}{}{0pt}{}
+\titleformat{\subsection}{\fontsize{9pt}{11pt}\selectfont\bfseries}{}{0pt}{}
+\titlespacing{\section}{0pt}{1em}{0pt}  % Adds 1em spacing before each section
+\titlespacing{\subsection}{0pt}{0.8em}{0pt}  % Adds 0.8em spacing before each subsection
+
+% Remove paragraph indentation
+\setlength{\parindent}{0pt}
+
+% Two-column layout settings
+\setlength{\columnsep}{0.5cm}
+
+\begin{document}
+\thispagestyle{empty}  % Remove page numbering
+
+% Title
+\begin{center}
+    \fontsize{12pt}{14pt}\selectfont
+    \textbf{TITLE IN CAPITAL LETTERS} \\[1em]
+    \fontsize{9pt}{11pt}\selectfont
+    \underline{Forename Surname}, University, name@domain.com \\
+    Forename Surname, University, name@domain.com
+\end{center}
+
+\begin{multicols}{2}
+\fontsize{9pt}{11pt}\selectfont
+
+% Sample text
+\section*{PREPARATION AND SUBMITTAL}
+Abstracts must be produced to fit A4 paper (21 by 29.7 cm). The text, together with tables, equations, and illustrations, must fill no more than one page in a two-column layout.
+
+\section*{SUBHEADING}
+Authors are required to submit abstracts as PDF format files via the online system.
+
+\subsection*{MATHEMATICS}
+Equations should be typed into the text or incorporated as a graphic object:
+\begin{equation}
+    E = mc^2
+\end{equation}
+
+\section*{REFERENCES}
+Author, co-author (2006). Title, Coastal Engineering, ELSEVIER, vol. 10, pp. 32-39.
+
+\end{multicols}
+
+\end{document}
