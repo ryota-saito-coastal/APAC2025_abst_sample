@@ -19,5 +19,5 @@ To use this template, compile it with `lualatex` for proper font handling. Ensur
 
 For any inquiries or issues, feel free to submit a pull request or open an issue.
 
-- **Authour**：Ryota Saito
+- **Author** ：Ryota Saito
 - **Twitter**：@pokitamazaing
